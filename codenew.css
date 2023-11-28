@@ -1,0 +1,987 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+/* headersection */
+header
+{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerlogo
+{
+    height: auto;
+    width: 100px;
+    margin: 0px 0px 0px 150px;
+}
+.headerlogo img
+{
+    width: 100%;
+    height: 100%;
+    
+}
+.menu ul
+{
+ list-style: none;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 0px 120px 0px 0px;
+}
+.menu a
+{
+    text-decoration: none;
+    color: black;
+    /* padding: 5px 10px 5px 10px; */
+}
+.menu li
+{
+    padding-right: 30px;
+    font-weight: bold;
+}
+.menu button
+{
+    background-color: #4e0fea;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+.menu button a
+{
+    color: white;
+}
+.developersflex
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 10px;
+}
+.developers
+{
+    width: 650px;
+    height: auto;
+    margin-right: 80px;
+}
+.developers h1
+{
+    font-size: 50px;
+    padding: 10px 0px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    line-height: 4.3rem;
+    color: black;
+}
+.developers p
+{
+    width: 550px;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 0px;
+    margin: 15px 0px;
+    color: black;
+}
+.developers button
+{
+    height: 40px;
+    width: 200px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #4E0FEA;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    padding: 6px 15px;
+    margin-top: 15px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.developers button a
+{
+    color: white;
+    text-decoration: none;
+}
+.developersimage img
+{
+    width: 100%;
+    height: 100%;
+}
+
+/* second section */
+.secondheding h1
+{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900; 
+    margin-top: 100px;
+    align-items: center; 
+}
+.companiesicon img
+{
+    width: 160px;
+    height: auto;
+    text-align: center;
+    margin: 15px;
+    transition-duration: 0.5s;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.companiesflex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 20px;
+    height: 80px;
+    margin: 20px 230px 20px 230px;
+    transform: scale(1.0);
+    transition-duration: 0.5s;
+}
+
+/* fourthsection */
+.talentheading h1
+{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-top: 100px;
+    color: #2b2a2f;
+}
+.talentbox
+{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin: 50px 30px 0px 0px;
+}
+.talentimage
+{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+.talentimage img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.talentbox h3
+{
+    text-align: center;
+    margin-top: 60px;
+    color: #2b2a2f;
+}
+.talentbox h4
+{
+    text-align: center;
+    margin-top: 10px;
+    color: #e5e5e9;
+    font-weight: bold;
+}
+.talentbox p
+{
+    text-align: justify;
+    padding: 10px 20px 10px 20px; 
+    color: #8c8b8e;
+    font-weight: 800;
+    font-size: 18px;
+}
+.talentflex
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.talentbox h5
+{
+    text-align: center;
+}
+/* fifthsection */
+.background
+{
+    width: 100%;
+    height: 700px;
+    background-image: url("https://www.codebase.com/wp-content/uploads/2022/04/our-commitment-bg-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 100px 0px 20px 0px; 
+}
+.background h1
+{
+    text-align: center;
+    color: white;
+    padding-top: 120px;
+    font-size: 4rem;
+}
+.moneybackbox
+{
+    width: 400px;
+    height: 300px;
+    background-color: #000000;
+    border-radius: 20px;
+    margin: 80px 30px 0px 0px;
+}
+.moneyimage
+{
+    width: 100px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    padding-top: 30px;
+}
+.moneyimage img
+{
+    height: 100%;
+    width: 100%;
+}
+.moneybackbox h2
+{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    font-size: 1.5rem;
+}
+.moneybackbox p
+{
+    text-align: center;
+    color: white;
+    padding: 30px 10px 0px 10px;
+    font-size: 20px;
+}
+.commitflex
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* talentsection */
+.section5
+{
+    width: 100%;
+    height: 900px;
+    background-color: #f1f1f1;
+}
+.section5 h1
+{
+    text-align: center;
+   padding-top: 80px;
+   font-size: 3.5rem;
+   color: #2b2a2f;
+   font-weight: 800;
+}
+h2 {
+    color: black;
+}
+p {
+    color: black;
+}
+.imagebox
+{
+    width: 550px;
+    height: 200px;
+    color: black;
+    padding: 10px;
+    margin: 50px 20px;
+    transition-duration: 0.5s;
+}
+.image3 img
+{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.section5flex
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 100px 0px 100px;
+}
+
+
+
+/* hiringsection */
+.hiring h1
+{
+    text-align: center;
+    font-size: 3.5rem;
+    color: #3a414b;
+    padding-top: 100px;
+}   
+.hiringimage
+{
+    width: 500px;
+}
+.hiringimage img
+{
+    width: 100%;
+    height: 100%;
+    margin-left: 100px;
+}
+.heading h1
+{
+    height: 100px;
+    width: 100px;
+    padding: 10px 28px;
+    color: #471aff;
+    border: 10px solid #471aff;
+    border-radius: 50%;
+    font-size: 55px;
+    font-family: 'Roboto';
+    margin-right: 20px;
+}
+.subheading h2
+{
+    padding: 5px 0px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.subheading p
+{
+    padding-right: 10px;
+}
+.hiringflex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10px;
+    margin-bottom: 100px;
+}
+.hireus
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headingflex
+{
+    width: 600px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 50px;
+    transition-duration: 0.5s;
+}
+.mainflex
+{
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+/* joinussection */
+.joinussection
+{
+    height: 300px;
+    width: 100%;
+    background-color: #5f25f0;
+}
+.joinussection h2
+{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 2rem;
+}
+.joinusflex button
+{
+    height: 40px;
+    width: 200px;
+    background-color: #4e0fea;
+    margin-top: 50px;
+    margin-right: 20px;
+    border: 1px solid #4e0fea;
+    
+}
+button a 
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.joinusbutton2 button
+{
+    height: 40px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: #5f25f0;
+}
+.joinusbutton2 button a
+{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 25px;
+
+}
+.joinusflex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.joinussection h5
+{
+    color: white;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.footer
+{
+    height: 400px;
+    width: 100%;
+    background-color: #4e0fea;
+    /* margin-top: 50px; */
+}
+.logoimage
+{
+    height: 120px;
+    width: 200px;
+}
+.logoimage img
+{
+    height: auto;
+    width: 100%;
+    margin: 80px 0px 0px 200px;
+}
+hr
+{
+    margin: auto;
+    margin-top: 80px;
+    width: 1130px;
+}
+i.fa-brands.fa-linkedin {
+    color: white;
+    font-size: 24px;
+    padding: 10px 0px 0px 200px;
+}
+i.fa-brands.fa-youtube {
+    color: white;
+    font-size: 24px;
+    padding: 10px 0px 0px 10px;
+}
+i.fa-brands.fa-instagram {
+    color: white;
+    font-size: 24px;
+    padding: 10px 0px 0px 10px;
+}
+i.fa-brands.fa-twitter {
+    color: white;
+    font-size: 24px;
+    padding: 10px 0px 0px 10px;
+}
+i.fa-brands.fa-facebook {
+    color: white;
+    font-size: 24px;
+    padding: 10px 0px 0px 10px;
+}
+.footerflex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list2
+{
+    margin-right: 180px;
+    /* margin: auto; */
+}
+.list2 a
+{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.last p
+{
+    color: white;
+    font-size: 12px;
+    margin: 0px 0px 0px 200px;
+}
+.last1 p
+{
+    color: #bca6ca;
+   font-size: 12px;
+   margin: 5px 0px 0px 200px;
+}
+
+/* services page start from here */
+.services h1
+{
+    margin: 50px 0px 0px 600px;
+}
+.servicessection
+{
+    width: 370px;
+    height: 300px;
+    background-color: white;
+    border: 3px solid grey;
+    border-radius: 10px;
+    position: relative;
+}
+.image1 {
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    border: 2px solid gray;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    object-fit: cover;
+    position: absolute;
+    top: -56px;
+    left: 133px;
+    background-color: white;
+}
+.servicessection img
+{
+    height: 100%;
+    width: 100%;
+}
+.servicessection h2
+{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 50px;
+}
+.servicessection p
+{
+    text-align: center;
+    font-size: 16px;
+    padding: 18px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.subflex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin-bottom: 60px;
+}
+
+/* technical starts from here */
+.technical
+{
+    width: 100%;
+    height: 750px;
+    background-color: #6032ff;
+}
+.image2
+{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+}
+.image2 img
+{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 0 70px;
+}
+
+.project {
+    height: 200px;
+}
+.project h2
+{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 400;
+}
+.project p
+{
+    text-align: center;
+    margin: 20px;
+}
+.projectbutton
+{
+    width: 250px;
+    height: 50px;
+    background-color: #6032ff;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.projectbutton a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+}
+.projectbutton a:hover
+{
+    color: #471aff;
+}
+/* contact page starts from here */
+.contact h1
+{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.form
+{
+    width: 100%;
+    height: 450px;
+    background-color: #6032ff;
+    margin-top: 30px;
+}
+.form h2
+{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-size: 36px;
+}
+.myform
+{
+    width: 70%;
+    margin: auto;
+}
+.formflex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+.formflex input {
+    font-size: 14px;
+    width: 100%;
+    height: 40px;
+    margin-right: 20px;
+}
+.myform button
+{
+    /* padding: 10px 10px; */
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    margin: auto;
+    cursor: pointer;
+}
+.myform button a 
+{
+    color: black;
+    text-decoration: none;
+
+}
+input[type="text"] {
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 14px;
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: white;
+}
+.box1
+{
+    height: 200px;
+    width: 600px;
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.cityimage
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.cityimage img
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -53px;
+    left: 243px;
+    background-color: white;
+}
+.city
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.box1 h3
+{
+    text-align: center;
+    font-size: 20px;
+}
+.box1 p
+{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+}
+/* call starts form here */
+.callus h2
+{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 50px;
+    color: black;
+    font-weight: 500;
+}
+.callus button
+{
+    height: 50px;
+    width: 170px;
+    background-color: #6032ff;
+    margin-left: 670px;
+    border-radius: 20px;
+    border: solid white;
+    cursor: pointer;
+    margin: 10px 670px;
+}
+.callus button a
+{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 25px;
+    margin: auto;
+}
+/* apply for jobs starts from here */
+.Companybutton button
+{
+    background-color : blue;
+    height: 35px;
+    width: 170px;
+    border: solid white;
+    margin-left: 600px;
+}
+.Companybutton button a
+{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+element.style {
+    color: grey;
+    font-size: 24px;
+    padding-right: 30px ;
+}
+/* i.fa-brands.fa-twitter {
+    color: grey;
+    font-size: 20px;
+}
+i.fa-brands.fa-facebook {
+    color: grey;
+    font-size: 20px;
+}
+i.fa-brands.fa-instagram {
+    color: grey;
+    font-size: 20px;
+}
+i.fa-brands.fa-linkedin {
+    color: grey;
+    font-size: 20px;
+} */
+.work
+{
+    width: 100%;
+    height: 400px;
+    background-color: #4719ff;
+}
+.work h1
+{
+    color: white;
+    font-size: 4.5rem;
+    text-align: center;
+    padding-top: 100px;
+}
+.work p 
+{
+    color: #928dff;
+   text-align: center;
+   font-size: 24px;
+   padding-top: 20px; 
+}
+.butt
+{
+    /* height: 50px;
+    width: 200px;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer; */
+    padding-top: 20px;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+.butt a
+{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+.codeopenings h2
+{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5rem;
+}
+.Department
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 60px;
+    margin-top: 40px;
+}
+.Department h4
+{
+    padding-right: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+.Openingssection
+{
+    height: 90px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    margin: 40px 100px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+.Openingssection:hover
+{
+    background-color: whitesmoke;
+    transition: 1s;
+}
+
+h3
+{
+    font-size: 20px;
+    color: #585149;
+    text-align: left;
+}
+button
+{
+    background-color: grey;
+    height: 30px;
+    width: 70px;
+    color: white;
+    font-size: 18px;
+    border: solid white;
+    border-radius: 5px;
+}
+.location
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+i.fa-solid.fa-location-dot {
+    color: grey;
+    font-size: 18px;
+    text-align: left;
+    margin-right: 10px;
+}
+h4 {
+    font-size: 16px;
+    color: grey;
+    margin-right: 20px;
+}
+i.fa-solid.fa-calendar-days {
+    color: grey;
+    font-size: 18px;
+    margin-right: 10px;
+    text-align: left;
+}
+.applyfooter
+{
+    width: 100%;
+    height: 100px;
+    background-color: #444444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.applyfooter h3
+{
+    color: white;
+    text-decoration: none;
+}
+.applyfooter h4
+{
+    color: white;
+    text-decoration: none;
+}
+.applybutton button:hover
+{
+    background-color: #4e0fea;
+}
+.Openingssection button:hover
+{
+    background-color: #4e0fea;
+}
