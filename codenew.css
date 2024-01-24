@@ -664,9 +664,10 @@ i.fa-brands.fa-facebook {
 .form
 {
     width: 100%;
-    height: 450px;
+    /* height: 480px; */
     background-color: #6032ff;
     margin-top: 30px;
+    padding: 50px 0;
 }
 .form h2
 {
@@ -685,39 +686,64 @@ i.fa-brands.fa-facebook {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    margin: auto;
-    padding: 10px 10px;
+    /* margin: auto; */
+    padding: 10px 0px;
 }
 
 .formflex input {
     font-size: 14px;
     width: 100%;
-    height: 40px;
-    margin-right: 20px;
+    height: 50px;
+    margin: 0, 20px;
 }
-.myform button
-{
-    /* padding: 10px 10px; */
+.myform button {
     height: 50px;
     width: 150px;
     background-color: white;
     margin: auto;
     cursor: pointer;
+    margin-top: 20px;
 }
 .myform button a 
 {
     color: black;
     text-decoration: none;
-
+    margin-top: 20px;
 }
-input[type="text"] {
+input[type="textarea"] {
     width: 100%;
-    height: 50px;
-    padding: 10px 20px;
+    height: 200px;
+    padding: 10px 0px;
     margin: 10px;
     font-size: 14px;
-
+    border-radius: 5px;
+    outline: none;
 }
+input[type="number"]
+{
+    width: 100%;
+    border-radius: 8px;
+}
+input[type="email"]
+{
+    width: 100%;
+    border-radius: 8px;
+}
+.detailbox
+{
+    width: 100%;
+    padding: 8px;
+}
+input[type="text"]
+{
+    width: 100%;
+    border-radius: 8px;
+}
+::placeholder{
+    color: gray;
+    padding-left: 10px;
+}
+
 * {
     padding: 0;
     margin: 0;
